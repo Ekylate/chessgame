@@ -1,3 +1,0 @@
-- changer " a qqn" pour "au tour de/d' "
-- Implémenter côté "ordi"
-- Implémenter jeu réseau
