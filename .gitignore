@@ -35,3 +35,9 @@
 /target/classes/ui/Window$Menu.class
 /target/classes/ui/Window.class
 /target/
+.settings/org.eclipse.wst.common.project.facet.core.xml
+.classpath
+.project
+.settings/org.eclipse.core.resources.prefs
+.settings/org.eclipse.jdt.core.prefs
+.settings/org.eclipse.m2e.core.prefs
