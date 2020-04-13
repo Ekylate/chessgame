@@ -1,4 +1,4 @@
-package bean.pawns;
+package core.pawns;
 
 import java.awt.Color;
 import java.awt.Dimension;
@@ -6,7 +6,7 @@ import java.util.ArrayList;
 
 import javax.swing.ImageIcon;
 
-import ui.Window;
+import ui.graphics.Window;
 
 public class Fou extends Piece{
 	

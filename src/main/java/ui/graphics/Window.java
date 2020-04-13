@@ -1,4 +1,4 @@
-package ui;
+package ui.graphics;
 
 import java.awt.Color;
 import java.awt.Dimension;
@@ -21,16 +21,16 @@ import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import javax.swing.ScrollPaneConstants;
 
-import bean.Ecouteur;
-import bean.Joueur;
-import bean.pawns.Case;
-import bean.pawns.Cavalier;
-import bean.pawns.Fou;
-import bean.pawns.Piece;
-import bean.pawns.Pion;
-import bean.pawns.Reine;
-import bean.pawns.Roi;
-import bean.pawns.Tour;
+import core.bean.Joueur;
+import core.pawns.Case;
+import core.pawns.Cavalier;
+import core.pawns.Fou;
+import core.pawns.Piece;
+import core.pawns.Pion;
+import core.pawns.Reine;
+import core.pawns.Roi;
+import core.pawns.Tour;
+import ui.listeners.Ecouteur;
 
 public class Window extends JFrame{
 	private JLayeredPane Layer;

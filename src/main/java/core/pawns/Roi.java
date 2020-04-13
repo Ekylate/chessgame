@@ -1,4 +1,4 @@
-package bean.pawns;
+package core.pawns;
 
 import java.awt.Color;
 import java.awt.Dimension;
@@ -7,8 +7,8 @@ import java.util.ArrayList;
 import javax.swing.BorderFactory;
 import javax.swing.ImageIcon;
 
-import bean.Ecouteur;
-import ui.Window;
+import ui.graphics.Window;
+import ui.listeners.Ecouteur;
 
 public class Roi extends Piece{
 	private boolean chess = false;

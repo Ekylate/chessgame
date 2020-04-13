@@ -1,15 +1,16 @@
-package bean;
+package core.bean;
 import java.awt.Color;
 import java.util.ArrayList;
 
-import bean.pawns.Case;
-import bean.pawns.Cavalier;
-import bean.pawns.Fou;
-import bean.pawns.Piece;
-import bean.pawns.Reine;
-import bean.pawns.Roi;
-import bean.pawns.Tour;
-import ui.Window;
+import core.pawns.Case;
+import core.pawns.Cavalier;
+import core.pawns.Fou;
+import core.pawns.Piece;
+import core.pawns.Reine;
+import core.pawns.Roi;
+import core.pawns.Tour;
+import ui.graphics.Window;
+import ui.listeners.Ecouteur;
 
 public class Joueur{
 	private String name;

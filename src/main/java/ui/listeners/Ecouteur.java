@@ -1,12 +1,13 @@
-package bean;
+package ui.listeners;
 
 import java.awt.Color;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-import bean.pawns.Case;
-import bean.pawns.Piece;
-import ui.Window;
+import core.bean.Joueur;
+import core.pawns.Case;
+import core.pawns.Piece;
+import ui.graphics.Window;
 
 public class Ecouteur implements ActionListener{
 		private static Joueur[] t;

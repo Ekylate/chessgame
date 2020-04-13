@@ -1,4 +1,4 @@
-package bean.pawns;
+package core.pawns;
 
 import java.awt.Color;
 import java.awt.Dimension;

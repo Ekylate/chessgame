@@ -1,4 +1,4 @@
-package bean.pawns;
+package core.pawns;
 
 //import javax.swing.BorderFactory;
 import java.awt.Color;
@@ -8,8 +8,8 @@ import java.util.ArrayList;
 import javax.swing.BorderFactory;
 import javax.swing.ImageIcon;
 
-import bean.Ecouteur;
-import ui.Window;
+import ui.graphics.Window;
+import ui.listeners.Ecouteur;
 
 public abstract class Piece{
 	protected ImageIcon img;
